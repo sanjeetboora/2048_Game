@@ -1,0 +1,49 @@
+body{
+  background-image: url('source1.gif');
+background-size: cover;
+}
+p{
+  color: #343445;
+  font-size: 20px;
+}
+
+
+
+
+h1{
+  text-align: center;
+font-size: 60px;
+padding: 2px;
+margin: 0px;
+color: beige;
+
+}
+.clear{
+  clear:both;
+}
+#view{
+  margin-left: -50px;
+  padding-left: 50%;
+
+}
+#sizelabel {
+    float: left;
+    margin-top: 0px;
+    font-size: 20px;
+    color: beige;
+    font-style: italic;
+    background: darkgrey;
+    padding: 4px;
+    padding-left: 4px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#size{
+  width: 50px;
+  margin-left: 10px;
+}
+#drawcanvas{
+  margin-left: -250px;
+  padding-left: 50%;
+}
