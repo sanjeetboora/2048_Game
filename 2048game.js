@@ -17,7 +17,7 @@ an_size.onclick = function() {
   if (usersize.value >= 2 && usersize.value <= 20) {
     size = usersize.value;
     width = canvas.width / size - 6;
-    console.log(usersize.value);
+ 
     canvasclean();
     start();
   }
@@ -147,6 +147,7 @@ function addcell() {
     var col = Math.floor(Math.random() * size);
     if (!cells[row][col].value) {
       cells[row][col].value = 2 * Math.ceil(Math.random() * 2);
+      console.log(cells[row][col].value);
       createtable();
       return;
     }
